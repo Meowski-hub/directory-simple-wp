@@ -1,0 +1,60 @@
+.directory-simple-admin-container {
+    padding: 20px 0;
+}
+
+.directory-simple-form-container,
+.directory-simple-import-container {
+    max-width: 600px;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.directory-form .form-group {
+    margin-bottom: 15px;
+}
+
+.directory-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.directory-form input[type="text"],
+.directory-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.directory-form textarea {
+    min-height: 100px;
+}
+
+.directory-simple-entries-container {
+    margin-top: 30px;
+}
+
+.wp-list-table .column-actions {
+    width: 120px;
+}
+
+.wp-list-table .button-small {
+    margin-right: 5px;
+}
+
+/* Responsive table */
+@media screen and (max-width: 782px) {
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        position: relative;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        color: #666;
+        font-size: 85%;
+    }
+}
